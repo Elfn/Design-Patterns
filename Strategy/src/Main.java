@@ -8,6 +8,9 @@ import model.SquareBalloon;
  */
 public class Main {
 
+    //STRATEGY PATTERN TO MAKE AN OBJECT VARY A PART OF ITS ALGORITHM DYNAMICALLY
+    //TO ISOLATE ALGORITHMS CONTAINED IN THE SAME FAMILLY
+
     public static void main(String[] args)
     {
         ScoreBoard scoreBoard = new ScoreBoard();

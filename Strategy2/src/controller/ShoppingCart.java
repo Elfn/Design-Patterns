@@ -9,6 +9,7 @@ import java.util.ListIterator;
 /**
  * Created by Elimane on Apr, 2020, at 07:21
  */
+//ITS THE CONTEXT ALLOWING TO EXECUTE EACH ALGORITHM ACCORDING TO THE CALLED CLASS
 public class ShoppingCart {
 
     ArrayList<Product> productList;
@@ -43,7 +44,7 @@ public class ShoppingCart {
     public void pay(Payment paymentStrategy){
         int amount = calculateTotal();
         paymentStrategy.pay(amount);
-        System.out.println(amount);
+       // System.out.println(amount);
     }
 
 }

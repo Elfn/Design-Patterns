@@ -13,6 +13,7 @@ public class Main {
 
     public static void main(String[] args)
     {
+        //Use of the context to interchange strategies
         ScoreBoard scoreBoard = new ScoreBoard();
 
         System.out.println("Balloon Tap Score: ");

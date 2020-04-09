@@ -31,7 +31,7 @@ public class Main {
 
 
         //Payment decision with interchangeability between Algorithms
-        cart.pay(new PaypalAlgorithm("eli@test.com","12345"));
+        cart.pay(new PaypalAlgorithm("eli@test.com","1234"));
 
 
         cart.pay(new CreditCardAlgorithm("eli","1234-2343-2223-5654"));

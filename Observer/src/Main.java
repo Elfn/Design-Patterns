@@ -26,11 +26,16 @@ public class Main {
         secondObserver.setSubject(topic);
         thirdObserver.setSubject(topic);
 
-        //Check for updates
+        //Check for updates => will display " No new message on this topic"
+        //for that two observers as we don't post a message yet
 //        firstObserver.update();
 //        secondObserver.update();
 
         //Subject (Provider/Broadcaster)
         topic.postMessage("Hello subscribers!");
+        //Will display :
+//            FirstObserver Retrieving message: Hello subscribers!
+//            SecondObserver Retrieving message: Hello subscribers!
+//            ThirdObserver Retrieving message: Hello subscribers!
     }
 }

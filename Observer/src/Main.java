@@ -49,7 +49,7 @@ public class Main {
 
         //Subject (Provider/Broadcaster)
         topic.postMessage("Hello subscribers!");
-        topic.postMessage("Hello  2!");
+        //topic.postMessage("Hello  2!");
         //Will display :
 //            FirstObserver Retrieving message: Hello subscribers!
 //            SecondObserver Retrieving message: Hello subscribers!

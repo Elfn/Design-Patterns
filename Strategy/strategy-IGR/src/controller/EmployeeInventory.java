@@ -101,19 +101,19 @@ public class EmployeeInventory {
 
                         igrStrategy = new CI();
                         igr = igrStrategy.getIGR(employeeDTO.getSalary());
-                        System.out.println(employeeDTO.getFname() + " " + employeeDTO.getLname() + " coming from Ivory Coast and his annual salary is " + employeeDTO.getSalary() + " IGR's is " + igr);
+                        System.out.println(employeeDTO.getFname() + " " + employeeDTO.getLname() + " coming from Ivory Coast and his annual salary is " + employeeDTO.getSalary() + " FCFA IGR's is " + igr);
                         break;
                     case "MOROCCO":
 
                         igrStrategy = new Morocco();
                         igr = igrStrategy.getIGR(employeeDTO.getSalary());
-                        System.out.println(employeeDTO.getFname() + " " + employeeDTO.getLname() + " coming from Morocco and his annual salary is " + employeeDTO.getSalary() + " IGR's is " + igr);
+                        System.out.println(employeeDTO.getFname() + " " + employeeDTO.getLname() + " coming from Morocco and his annual salary is " + employeeDTO.getSalary() + " DHS IGR's is " + igr);
                         break;
                     case "ALGERIA":
 
                         igrStrategy = new Algeria();
                         igr = igrStrategy.getIGR(employeeDTO.getSalary());
-                        System.out.println(employeeDTO.getFname() + " " + employeeDTO.getLname() + " coming from " + employeeDTO.getCountry() + " annual salary is " + employeeDTO.getSalary() + " IGR's is " + igr);
+                        System.out.println(employeeDTO.getFname() + " " + employeeDTO.getLname() + " coming from " + employeeDTO.getCountry() + " annual salary is " + employeeDTO.getSalary() + " DINARS IGR's is " + igr);
                         break;
                     default:
                         System.out.println("ERROR");

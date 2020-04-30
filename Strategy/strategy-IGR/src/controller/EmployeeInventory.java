@@ -56,19 +56,19 @@ public class EmployeeInventory {
 
                        igrStrategy = new CI();
                          igr =  igrStrategy.getIGR(emp.getSalary());
-                        System.out.println(emp.getFname()+" "+emp.getLname()+" coming from "+ emp.getCountry() +" annual salary is "+emp.getSalary()+" IGR's is "+igr);
+                        System.out.println(emp.getFname()+" "+emp.getLname()+" coming from Ivory Coast and his annual salary is "+emp.getSalary()+" FCFA and  IGR's is "+igr);
                        break;
                     case "MOROCCO":
 
                         igrStrategy = new Morocco();
                          igr =  igrStrategy.getIGR(emp.getSalary());
-                        System.out.println(emp.getFname()+" "+emp.getLname()+" coming from "+ emp.getCountry() +" annual salary is "+emp.getSalary()+" IGR's is "+igr);
+                        System.out.println(emp.getFname()+" "+emp.getLname()+" coming from Morocco and his annual salary is "+emp.getSalary()+" DHS and IGR's is "+igr);
                         break;
                     case "ALGERIA":
 
                         igrStrategy = new Algeria();
                          igr =  igrStrategy.getIGR(emp.getSalary());
-                        System.out.println(emp.getFname()+" "+emp.getLname()+" coming from "+ emp.getCountry() +" annual salary is "+emp.getSalary()+" IGR's is "+igr);
+                        System.out.println(emp.getFname()+" "+emp.getLname()+" coming from Algeria and his annual salary is "+emp.getSalary()+" DINARS and IGR's is "+igr);
                         break;
                     default:
                         System.out.println("ERROR");
@@ -99,7 +99,7 @@ public class EmployeeInventory {
 
                             igrStrategy = new Morocco();
                             igr = igrStrategy.getIGR(emp.getSalary());
-                            System.out.println(emp.getFname()+" "+emp.getLname()+" coming from " + emp.getCountry() + " annual salary is " + emp.getSalary() + " IGR's is " + igr);
+                            System.out.println(emp.getFname()+" "+emp.getLname()+" coming from Morocco and his annual salary is " + emp.getSalary() + " IGR's is " + igr);
                             break;
                         case "ALGERIA":
 

@@ -11,7 +11,7 @@ public class Main {
         EmployeeInventory inventory = new EmployeeInventory();
 
         //DATA
-        Employee emp1 = new Employee("Kouassi", "Eric", "A123E", 300_000, Pays.CI);
+        Employee emp1 = new Employee("Kouassi", "Eric", "A123E", 7_000_000, Pays.CI);
 
         Employee emp2 = new Employee("Yassin", "Sofian", "A123E", 60000, Pays.MOROCCO);
 
@@ -21,6 +21,8 @@ public class Main {
         inventory.addEmployee(emp1);
         inventory.addEmployee(emp2);
         inventory.addEmployee(emp3);
+
+        //inventory.removeEmployee(emp1);
 
         //IGR computing with interchangeability between Algorithms
         //inventory.calculOneEmlpoyeeIGR("Yassin");//NOT WORKING, TO IMPROVE!

@@ -25,7 +25,7 @@ public class Main {
         //inventory.removeEmployee(emp1);
 
         //IGR computing with interchangeability between Algorithms
-        inventory.calculOneEmlpoyeeIGR("fian");//NOT WORKING, TO IMPROVE!
+        inventory.calculOneEmlpoyeeIGR("fian");//Output => [Yassin Sofian coming from Morocco and his annual salary is 60000.0 IGR's is 12000.0]
         //inventory.calculAllEmployeesIGR();
     }
 }

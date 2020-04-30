@@ -25,7 +25,7 @@ public class Main {
         //inventory.removeEmployee(emp1);
 
         //IGR computing with interchangeability between Algorithms
-        //inventory.calculOneEmlpoyeeIGR("Yassin");//NOT WORKING, TO IMPROVE!
-        inventory.calculAllEmployeesIGR();
+        inventory.calculOneEmlpoyeeIGR("fian");//NOT WORKING, TO IMPROVE!
+        //inventory.calculAllEmployeesIGR();
     }
 }

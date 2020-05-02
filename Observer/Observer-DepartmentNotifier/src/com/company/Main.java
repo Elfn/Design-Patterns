@@ -24,7 +24,7 @@ public class Main {
         provider.register(subs4);
 
         //Send Message only to those in HR Department
-        provider.sendMessage("Employment","There is new resumes",Departments.HR);
+        provider.sendMessage("Employment","There are new resumes",Departments.HR);
         //Result :
 
 //        Message posted to department : HR

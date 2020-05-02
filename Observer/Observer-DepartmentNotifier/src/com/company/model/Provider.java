@@ -40,7 +40,7 @@ public class Provider implements Subject {
         for(Receiver rec : receivers)
         {
             //Update Observer's to make him receive msg
-            rec.update();//update()[In RECEIVER class] is dependent on getUpdate(Receiver)[]In provider class below
+            rec.update();//update()[In RECEIVER class] is dependent on getUpdate(Receiver)[In provider class] below
         }
     }
 

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 /**
  * Created by Elimane on May, 2020, at 11:31
  */
+//BROADCASTER
 public class Provider implements Subject {
 
     private ArrayList<Receiver> receivers;
@@ -38,7 +39,8 @@ public class Provider implements Subject {
     public void notifyReceivers() {
         for(Receiver rec : receivers)
         {
-            rec.update();
+            //Update Observer's to make him receive msg
+            rec.update();//update()[In RECEIVER class] is dependent on getUpdate(Receiver)[]In provider class below
         }
     }
 
@@ -47,6 +49,7 @@ public class Provider implements Subject {
         return this.msg;
     }
 
+    //To post msg
     @Override
     public void sendMessage(String subject,String content,Departments toDept) {
         this.msg.setSubject(subject);

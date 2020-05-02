@@ -8,6 +8,7 @@ import java.util.ArrayList;
 /**
  * Created by Elimane on May, 2020, at 11:38
  */
+//OBSERVER
 public class Subscriber implements Receiver {
 
     private String firstName_LastName;
@@ -31,9 +32,14 @@ public class Subscriber implements Receiver {
         Message receivedMsg = (Message) this.provider.getUpdate(this);
         String result = (receivedMsg.getTodept().name().equals("CLIENT_SUPPORT")) ? "CLIENT_SUPPORT" : (receivedMsg.getTodept().name().equals("IT")) ? "IT" : (receivedMsg.getTodept().name().equals("HR")) ? "HR" : "ERROR";
 
+        //CHECK OBSERVER'S DEPARTMENT before send msg
         if(result.equals(this.department.name()))
         {
+            //Observer received msg in his mailbox
             this.messagesBox.add(receivedMsg);
+
+
+            //Acknowledgment of receipt
             if(this.messagesBox == null)
             {
                 System.out.println(this.firstName_LastName + " No new message");
@@ -42,6 +48,7 @@ public class Subscriber implements Receiver {
             {
                 System.out.println(this.firstName_LastName + " from "+this.department.name()+" department Retrieving message: "+ receivedMsg.getSubject());
             }
+
         }
     }
 

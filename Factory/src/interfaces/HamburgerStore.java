@@ -1,0 +1,26 @@
+package interfaces;
+
+import models.Hamburger;
+
+/**
+ * Created by Elimane on Jul, 2020, at 23:51
+ */
+public abstract class HamburgerStore {
+
+    public Hamburger orderHamburger(String type){
+        Hamburger burger;
+
+        //We now user our factory! Not the if statements.
+        burger =  createHamburger(type);  //factory.createHamburger(type);
+
+        burger.prepare();
+        burger.cook();
+        burger.box();
+
+        return burger;
+
+    }
+
+    abstract public Hamburger createHamburger(String type);
+
+}

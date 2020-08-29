@@ -17,6 +17,8 @@ public class SimpleServiceFactory implements Platform{
 
     @Override
     public Service chooseService(String category) {
+        //Here we will return service
+        //Acoording to the choosen one
         return null;
     }
 }

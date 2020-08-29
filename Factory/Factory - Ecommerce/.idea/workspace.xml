@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c03f1a57-bb5f-4618-ada2-319f81e1e49a" name="Default Changelist" comment="" />
+    <list default="true" id="40022a98-fca1-4375-9f44-c5fdd0ccf4de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/SimpleServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce-Factory-Diag.png" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce-Factory-Diag.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,22 +31,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="ProjectId" id="1eupydUTznmnp9s0EaMdTjEZ9Oy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -87,13 +92,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c03f1a57-bb5f-4618-ada2-319f81e1e49a" name="Default Changelist" comment="" />
-      <created>1595181587089</created>
+      <changelist id="40022a98-fca1-4375-9f44-c5fdd0ccf4de" name="Default Changelist" comment="" />
+      <created>1598704581338</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595181587089</updated>
-      <workItem from="1595181588933" duration="642000" />
-      <workItem from="1595196443784" duration="1192000" />
+      <updated>1598704581338</updated>
+      <workItem from="1598704583445" duration="787000" />
     </task>
     <servers />
   </component>
@@ -101,9 +105,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="114" y="23" width="1212" height="816" key="new project wizard" timestamp="1595206449902">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1598708444403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="114" y="23" width="1212" height="816" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1595206449902" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1598708444403" />
   </component>
 </project>

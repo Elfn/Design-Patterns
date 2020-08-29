@@ -10,6 +10,8 @@ public class SimpleServiceFactory implements Platform{
 
     public Service callService(String serviceName)
     {
+        //That function will call chooseService below
+        //and perform service call
         return null;
     }
 

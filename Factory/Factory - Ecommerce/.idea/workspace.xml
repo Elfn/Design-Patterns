@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40022a98-fca1-4375-9f44-c5fdd0ccf4de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/interfaces/SimpleServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/SimpleServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="ProjectId" id="1gm9ssuZTSHqJ1DV7NrNl9n7Cs3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -79,6 +80,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
@@ -90,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598704581338</updated>
-      <workItem from="1598704583445" duration="1051000" />
+      <workItem from="1598704583445" duration="1190000" />
+      <workItem from="1598709121201" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="Factory - Ecommerce">
       <created>1598708603658</created>
@@ -99,11 +102,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598708603658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory - Ecommerce">
+      <created>1598708890594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598708890594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Factory - Ecommerce">
+      <created>1598709011463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598709011463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory - Ecommerce" />
@@ -114,13 +131,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1598708444403" />
-    <state x="260" y="44" key="CommitChangelistDialog2" timestamp="1598708603419">
+    <state x="260" y="44" key="CommitChangelistDialog2" timestamp="1598709011271">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="260" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598708603419" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1598708605526">
+    <state x="260" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598709011271" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1598709012837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598708605526" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598709012837" />
   </component>
 </project>

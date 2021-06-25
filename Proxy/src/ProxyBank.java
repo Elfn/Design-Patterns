@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Locale;
 
 //The intermediary ATM(Automated Teller Machines/Distributeur automatique/Guichet automatique) between Real bank and client(Bank interface)
-//I will filter access
+//It will filter access
 public class ProxyBank implements Bank{
   private RealBank bank = new RealBank();
   private static List<String> bannedClients;

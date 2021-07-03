@@ -7,10 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ATCMediatorImpl implements ATCMediator {
-  List<AirCraft> airCraftList;
+  private static List<AirCraft> airCraftList;
 
   public ATCMediatorImpl() {
     this.airCraftList = new ArrayList<>();
+  }
+
+  public static List<AirCraft> getAirCraftList() {
+    return airCraftList;
   }
 
   @Override

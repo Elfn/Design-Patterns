@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/33424842/what-are-advanteges-and-disadvantages-of-the-visitor-behavior-pattern

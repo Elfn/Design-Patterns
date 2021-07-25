@@ -1,5 +1,5 @@
 public interface Visitor {
-    public double visit(Shirt shirt);
-    public double visit(TShirt tShirt);
-    public double visit(Jacket jacket);
+    public int visit(Shirt shirt);
+    public int visit(TShirt tShirt);
+    public int visit(Jacket jacket);
 }

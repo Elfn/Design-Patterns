@@ -8,19 +8,21 @@ public class TaxVisitor implements Visitor{
     }
 
     @Override
-    public double visit(Shirt shirt) {
+    public int visit(Shirt shirt) {
         System.out.println("Shirt final price with tax:");
-        return Double.parseDouble(decimalFormat.format(shirt));
+        return (int) ((shirt.getPrice() * .18) + shirt.getPrice());
     }
 
     @Override
-    public double visit(TShirt tShirt) {
+    public int visit(TShirt tShirt) {
         System.out.println("Shirt final price with tax:");
-        return Double.parseDouble(decimalFormat.format(shirt));
+        return (int)((tShirt.getPrice() * .20) + tShirt.getPrice());
     }
 
     @Override
-    public double visit(Jacket jacket) {
-        return 0;
+    public int visit(Jacket jacket) {
+      System.out.println("Jacket final price with tax:");
+      return (int) ((jacket.getPrice() * .22) + jacket.getPrice());
+
     }
 }

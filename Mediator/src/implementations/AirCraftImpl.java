@@ -3,7 +3,6 @@ package implementations;
 import interfaces.ATCMediator;
 import interfaces.AirCraft;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class AirCraftImpl extends AirCraft {

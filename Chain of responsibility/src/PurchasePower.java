@@ -9,6 +9,7 @@ abstract class PurchasePower {
         return successor;
     }
 
+
     public void setSuccessor(PurchasePower successor) {
         this.successor = successor;
     }

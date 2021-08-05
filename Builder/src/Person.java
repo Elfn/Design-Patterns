@@ -76,6 +76,7 @@ public interface Person {
                     ", address='" + address + '\'' +
                     ", age=" + age +
                     '}';
+            
         }
     }
 

@@ -19,6 +19,7 @@ public class MainForCorrect {
         sodaVendingMachine.insertMoney();
         sodaVendingMachine.selectSoda();
 
+        
         System.out.println(sodaVendingMachine);
 
         sodaVendingMachine.insertMoney();
